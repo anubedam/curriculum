@@ -1,0 +1,38 @@
+<footer class="bg-secondary fixed-bottom">
+    <div class="container text-center text-white">
+      <nav class="nav-manual">
+          <ul class="row justify-content-center align-items-center">
+            <li class="col-2 col-sm-1">
+              <a href="https://www.linkedin.com/in/antonio-ubeda-montero/" 
+                 title="Red Linkedin" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+
+            <li class="col-2 col-sm-1">
+              <a href="https://www.xing.com/profile/Antonio_UbedaMontero" 
+                 title="Red Xing" target="_blank">
+                  <i class="fab fa-xing-square"></i>
+              </a>
+            </li>
+
+            <li class="col-2 col-sm-1">
+              <a href="https://www.infojobs.net/antonio-ubeda-montero.prf" 
+                 title="Red Infojobs" target="_blank">
+                  <span class="manual"><b><i>IJ</i></b></span>
+              </a>
+            </li>
+
+            <li class="col-12 col-sm-9 col-md-6 col-lg-5 col-xl-4">
+              <a href="#">
+                <span class="copyright">
+                  <strong *ngIf="datosPaginaService.cargadoGeneral">
+                    &copy; 2020 {{ datosPaginaService.generales.nombre }}
+                  </strong>
+                </span>
+              </a>
+            </li>
+          </ul>
+      </nav>      
+    </div>
+</footer>

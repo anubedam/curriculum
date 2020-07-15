@@ -1,0 +1,210 @@
+{
+  "CRM" : [ {
+    "duracion" : 20,
+    "empresa" : "Capgemini",
+    "modalidad" : "Presencial",
+    "nombre" : "Salesforce - administración"
+  }, {
+    "duracion" : 27,
+    "empresa" : "Capgemini",
+    "modalidad" : "Presencial",
+    "nombre" : "UIPATH ROBOT"
+  } ],
+  "SO" : [ {
+    "duracion" : 0,
+    "empresa" : "",
+    "modalidad" : "Presencial",
+    "nombre" : "Microsoft Windows (uso habitual)"
+  }, {
+    "duracion" : 0,
+    "empresa" : "Ciclo Formativo Grado Superior",
+    "modalidad" : "Presencial",
+    "nombre" : "GNU/Linux"
+  }, {
+    "duracion" : 50,
+    "empresa" : "Maforem",
+    "modalidad" : "Presencial",
+    "nombre" : "Redes locales"
+  } ],
+  "cursos-web" : {
+    "BBDD" : [ "MySQL", "Oracle Database 11g", "H2 Database", "Microsoft Access", "DB2" ],
+    "IDE" : [ "Eclipse", "VisualStudio Code", "ATOM", "Sublime Text", "Netbeans" ],
+    "categorias" : [ {
+      "cursos" : [ {
+        "duracion" : 12.5,
+        "empresa" : "Udemy",
+        "modalidad" : "Online",
+        "nombre" : "HTML5, CSS3 y Javascript"
+      }, {
+        "duracion" : 22,
+        "empresa" : "Udemy",
+        "modalidad" : "Online",
+        "nombre" : "Bootstrap 4"
+      } ],
+      "nombre" : "Front Office"
+    }, {
+      "cursos" : [ {
+        "duracion" : 84,
+        "empresa" : "Capgemini",
+        "modalidad" : "Presencial",
+        "nombre" : "Desarrollo Web con Java EE (JSP y Servlets)"
+      }, {
+        "duracion" : 41.5,
+        "empresa" : "Udemy",
+        "modalidad" : "Online",
+        "nombre" : "Spring Boot 2 (Thymeleaf) y Spring Framework 5 (JSP)"
+      }, {
+        "duracion" : 16.5,
+        "empresa" : "Udemy",
+        "modalidad" : "Online",
+        "nombre" : "Spring Boot Microservices and Spring Cloud (AWS)"
+      }, {
+        "duracion" : 5.5,
+        "empresa" : "Udemy",
+        "modalidad" : "Online",
+        "nombre" : "Angular"
+      }, {
+        "duracion" : 12,
+        "empresa" : "Udemy",
+        "modalidad" : "Online",
+        "nombre" : "Django 2"
+      } ],
+      "nombre" : "Back Office"
+    }, {
+      "cursos" : [ {
+        "duracion" : 60,
+        "empresa" : "Capgemini",
+        "modalidad" : "Presencial",
+        "nombre" : "Java SE"
+      }, {
+        "duracion" : 26,
+        "empresa" : "Udemy",
+        "modalidad" : "Online",
+        "nombre" : "Python 3 (Anaconda) y Flask"
+      } ],
+      "nombre" : "Programación Orientada a Objetos"
+    }, {
+      "cursos" : [ {
+        "duracion" : 1,
+        "empresa" : "Youtube (Makigas)",
+        "modalidad" : "Online",
+        "nombre" : "GIT"
+      }, {
+        "duracion" : 1,
+        "empresa" : "Youtube (Makigas)",
+        "modalidad" : "Online",
+        "nombre" : "JUNIT"
+      } ],
+      "nombre" : "Control de Versiones y Pruebas"
+    }, {
+      "cursos" : [ {
+        "duracion" : 13,
+        "empresa" : "Skillsoft",
+        "modalidad" : "Online",
+        "nombre" : "Agile, Scrum y Lean"
+      }, {
+        "duracion" : 20,
+        "empresa" : "Capgemini",
+        "modalidad" : "Presencial",
+        "nombre" : "UML"
+      }, {
+        "duracion" : 8,
+        "empresa" : "Capgemini",
+        "modalidad" : "Presencial",
+        "nombre" : "Operativa Bancaria Básica"
+      }, {
+        "duracion" : 16,
+        "empresa" : "IESE Business School",
+        "modalidad" : "Online",
+        "nombre" : "Introducción a la Contabilidad Financiera"
+      }, {
+        "duracion" : 10,
+        "empresa" : "Capgemini",
+        "modalidad" : "Presencial",
+        "nombre" : "Los secretos de la comunicación"
+      } ],
+      "nombre" : "Metodologías y Conocimientos Funcionales"
+    } ]
+  },
+  "formacion" : [ {
+    "centro" : "IES Palomeras-Vallecas",
+    "duracion" : "2000-2002",
+    "titulo" : "Técnico Superior en Desarrollo de Aplicaciones Informáticas"
+  }, {
+    "centro" : "I.B. JAIME FERRÁN",
+    "duracion" : "1996-2000",
+    "titulo" : "BUP y COU (Opción Científico-Tecnológica)"
+  } ],
+  "generales" : {
+    "email" : "anubedam@gmail.com",
+    "nombre" : "Antonio Úbeda Montero",
+    "puesto" : "Desarrollador Web",
+    "residencia" : "Madrid",
+    "telefono" : 617844085,
+    "texto" : "<p class='lead mt-3'>Mi nombre es <strong>Antonio &Uacute;beda Montero</strong>. Soy <strong>Desarrollador Web (Java y Python)</strong> y <strong>host (Cobol/CICS/DB2)</strong>.</p><p class='lead pt-3'>He estado con un ordenador desde bien pequeño. Recuerdo que me gustaba sentarme a hacer programas en mi viejo MSX mientras \"ve&iacute;a\" <em>Planeta Imaginario</em> (era un programa para niños donde se trataban temas como la literatura y la pintura).</p><p class='lead'>Con el tiempo cambi&eacute; los juegos por la inform&aacute;tica de gesti&oacute;n, de la mano de la revista <em>MSX CLUB</em>, por lo que no es de extrañar que acabara trabajando en el mundo de la programaci&oacute;n (principalmente en el sector bancario).</p><p class='lead'>Soy de naturaleza curiosa, me encanta investigar y aprender nuevas tecnolog&iacute;as, por lo que si se me pone una entre manos soy el hombre m&aacute;s feliz del mundo. Esta p&aacute;gina, por ejemplo, esta hecha con el framework <strong>angular</strong> y una <strong>base de datos Firebase</strong>.</p><p class='lead'>Comenc&eacute; mi carrera como programador <strong>C</strong> y <strong>Visual Basic</strong> pero, por exigencias del mercado, tuve que cambiar a <strong>Cobol</strong>. En la actualidad me encuentro en un proceso para volver a tecnolog&iacute;as m&aacute;s actuales basadas en la Web.</p>"
+  },
+  "idiomas" : [ "Inglés Pearson - Nivel 8", "Español (idioma nativo)" ],
+  "ofimatica" : [ {
+    "duracion" : 51.5,
+    "empresa" : "SkillSoft",
+    "modalidad" : "Online",
+    "nombre" : "Microsoft Office"
+  }, {
+    "duracion" : 0,
+    "empresa" : "Capgemini",
+    "modalidad" : "Presencial",
+    "nombre" : "Microsoft Visio (Uso habitual)"
+  } ],
+  "trabajos" : [ {
+    "descripcion" : "<strong>Extracción de datos</strong> para la migraci&oacute;n del Banco Popular al Santander en los aplicativos de <strong>Cheques</strong> y <strong>transferencias</strong>.",
+    "empresa" : "Sopra Steria",
+    "periodo" : "11-2017 / 05-2018",
+    "titular" : "Migración Banco Popular - Santander."
+  }, {
+    "descripcion" : "<p>Entr&eacute; en el departamento de Riesgos con el <strong>Proyecto BMO</strong>, cuya finalidad era modificar una de las claves de riesgo.</p><p>Posteriormente en el <strong>ANS de Riesgos</strong>, realizando tareas de <em>an&aacute;lisis</em>, <em>mantenimiento</em> y <em>nuevos desarrollos</em> en las siguientes &aacute;reas:</p><ul><li><strong>CIR (Central de Riesgos).</strong></li><li><strong>RRVV (Riesgos Vencidos).</strong></li><li><strong>Reguladores.</strong></ li></ul><p>Particip&eacute; en el <strong>proyecto de desarrollo</strong> del generador de c&oacute;digo <em>FAST</em>, del cual <strong>impart&iacute; formaci&oacute;n</strong> peri&oacute;dica a equipos que entraban nuevos.",
+    "empresa" : "Capgemini",
+    "periodo" : "07-2011 / 09-2017",
+    "titular" : "Back Middle Office y ANS de Riesgos de Banco Popular."
+  }, {
+    "descripcion" : "<em>Nuevos desarrollos</em> y <em>mantenimiento</em> del aplicativo de <strong>Fondos de Inversi&oacute;n</strong>:<ul><li><strong>Peticiones de desarrollo y mantenimiento de las gestoras</strong> Popular Gesti&oacute;n y Popular Gesti&oacute;n Privada.</li><li><strong>Soporte a la red de sucursales</strong> para resolver dudas e incidencias.</li></ul><p>Estos son algunos de los proyectos que realic&eacute;:</p><ul style='list-style-type: none;'><li>- Coordinación del  producto combinado Fondo + IPF.</li><li>- Proyecto FILIUS (gestión de cambio de entidades bancarias).</li><li>- Generaci&oacute;n de informaci&oacute;n mensual para los part&iacute;cipes.</li><li>- Modelos fiscales 195 y 296.</li></ul>",
+    "empresa" : "Capgemini",
+    "periodo" : "03-2006 / 07-2011",
+    "titular" : "Mantenimiento Fondos de Inversi&oacute;n Banco Popular."
+  }, {
+    "descripcion" : "Programador (principalmente en la parte batch) del nuevo <em>Proyecto IMV</em> (Informe Mensual de Valoraciones).",
+    "empresa" : "Capgemini",
+    "periodo" : "07-2003 / 03-2006",
+    "titular" : "Proyecto IMV para Banco Popular."
+  }, {
+    "descripcion" : "Pr&aacute;cticas en empresas realizadas en <strong>Visual Basic</strong>.",
+    "empresa" : "NEURON S.L.",
+    "periodo" : "04-2002 / 06-2002",
+    "titular" : "Migración de la Aplicación Contaneuron (Contaplus para PYMES)."
+  } ],
+  "tradicional" : [ {
+    "duracion" : 100,
+    "empresa" : "Capgemini",
+    "modalidad" : "Presencial",
+    "nombre" : "Cobol, CICS, DB2 y JCL"
+  }, {
+    "duracion" : 0,
+    "empresa" : "Capgemini",
+    "modalidad" : "Presencial",
+    "nombre" : "CA Easy-Trieve"
+  }, {
+    "duracion" : 0,
+    "empresa" : "Capgemini",
+    "modalidad" : "Presencial",
+    "nombre" : "CA Intertest"
+  }, {
+    "duracion" : 0,
+    "empresa" : "Capgemini",
+    "modalidad" : "Presencial",
+    "nombre" : "Endevor"
+  }, {
+    "duracion" : 0,
+    "empresa" : "Ciclo Formativo Grado Superior",
+    "modalidad" : "Presencial",
+    "nombre" : "C"
+  } ]
+}

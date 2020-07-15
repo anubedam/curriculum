@@ -1,0 +1,45 @@
+<nav class="fixed-top navbar navbar-dark bg-dark navbar-expand-lg"> 
+    <a class="navbar-brand" href="home">Antonio &Uacute;beda Montero</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+              data-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse justify-content-center" id="menu">
+      <!-- Opciones del menú -->
+      <span class="text-white"></span>
+      <ul class="navbar-nav">  
+        <li routerLinkActive="active" class="ml-lg-3 nav-item active">
+            <a class="nav-link" routerLink="home">
+                <i class="fas fa-home"></i>
+                <span> Inicio</span>
+            </a>
+        </li>
+
+        <li routerLinkActive="active" class="nav-item">
+            <a class="ml-lg-4 nav-link" routerLink="formacion">
+               <i class="fas fa-graduation-cap"></i>
+               <span> Formaci&oacute;n</span>
+            </a>              
+        </li>
+
+        <!-- Cursos realizados: Programacion tradicional y Web -->
+        <li routerLinkActive="active" class="nav-item">
+            <a class="ml-lg-4 nav-link" routerLink="cursos">
+                <i class="fas fa-chess-queen"></i>
+                <span> Conocimientos</span>
+            </a>              
+        </li>
+
+        <li routerLinkActive="active" class="nav-item">
+
+            <a class="ml-lg-4 nav-link" routerLink="experiencia">
+                <i class="fas fa-briefcase"></i>
+                <span> Experiencia</span>
+            </a>              
+        </li>      
+      </ul>
+
+    </div>
+</nav>

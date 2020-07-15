@@ -1,0 +1,297 @@
+<div class="container mt-5 mb-2 mt-md-6">
+    <h1 style="display:none;">Cursos Realizados</h1>
+    
+    <!-- Cursos de programación tradicional -->
+    <h2 class="display-5 titulo my-3 pt-lg-5 text-center">PROGRAMACI&Oacute;N TRADICIONAL</h2>
+
+    <div class="card mt-5" style="width: 100%">
+
+      <div class="card-title bg-primary">   
+        <h2 class="py-3 text-center text-white">Cursos realizados</h2>
+      </div>
+
+      <div class="card-body">
+        <table class="table table-responsive-sm table-hover">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Nombre</th>
+              <th scope="col">Duraci&oacute;n (horas)</th>
+              <th scope="col">Empresa</th>
+              <th scope="col">Modalidad</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let cTrad of datosPaginaService.tradicional">
+              <td>
+                <span *ngIf="datosPaginaService.cargadoTradicional">
+                  {{ cTrad.nombre }}
+                </span>
+              </td>
+              <td>
+                <span *ngIf="datosPaginaService.cargadoTradicional"> 
+                  {{ cTrad.duracion }}
+                </span>
+              </td>
+              <td>
+                <span *ngIf="datosPaginaService.cargadoTradicional"> 
+                  {{ cTrad.empresa }}
+                </span>
+              </td>
+              <td>
+                <span *ngIf="datosPaginaService.cargadoTradicional"> 
+                  {{ cTrad.modalidad }}
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table> 
+      </div>
+    </div>
+
+    <!-- Cursos Web-->
+    <h2 class="display-5 titulo mt-4 mb-3 text-center">DESARROLLO WEB</h2>
+
+    <div *ngFor="let categoria of datosPaginaService.cursosWeb.categorias"
+         class="card mt-5" style="width: 100%">
+
+      <div class="card-title bg-primary">   
+        <h2 class="py-3 text-center text-white">
+          <span *ngIf="datosPaginaService.cargadoCursosWeb">
+            {{ categoria.nombre }}
+          </span>
+        </h2>
+      </div>
+
+      <div class="card-body">
+        <table class="table table-responsive-sm table-hover">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Nombre</th>
+              <th scope="col">Duraci&oacute;n (horas)</th>
+              <th scope="col">Empresa</th>
+              <th scope="col">Modalidad</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let curso of categoria.cursos">
+              <td>
+                <span *ngIf="datosPaginaService.cargadoCursosWeb">
+                  {{ curso.nombre }}
+                </span>
+              </td>
+              <td>
+                <span *ngIf="datosPaginaService.cargadoCursosWeb">
+                  {{ curso.duracion }}
+                </span>
+              </td>
+              <td>
+                <span *ngIf="datosPaginaService.cargadoCursosWeb">
+                  {{ curso.empresa }}
+                </span>
+              </td>
+              <td>
+                <span *ngIf="datosPaginaService.cargadoCursosWeb">
+                  {{ curso.modalidad }}
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table> 
+      </div>
+    </div>
+    
+    <!-- Bases de datos -->
+    <div class="card mt-5" style="width: 100%">
+      <div class="card-title bg-primary">   
+        <h2 class="py-3 text-center text-white">Bases de datos</h2>
+      </div>
+      
+      <div class="card-body container">
+         <ul class="row">
+           <li class="col-10 col-md-4 pl-5" *ngFor="let bbddact of datosPaginaService.cursosWeb.BBDD">
+              <span *ngIf="datosPaginaService.cargadoCursosWeb">
+               - {{ bbddact }}
+              </span>
+           </li>
+         </ul> 
+      </div>
+    </div>
+
+    <!-- Entornos Integrados de Desarrollo -->
+    <div class="card mt-5" style="width: 100%">
+      <div class="card-title bg-primary">   
+        <h2 class="py-3 text-center text-white">Entornos Integrados de Desarrollo (IDE)</h2>
+      </div>
+
+      <div class="card-body container">
+         <ul class="row">
+           <li class="col-10 col-md-4 pl-5" *ngFor="let ideact of datosPaginaService.cursosWeb.IDE">
+               <span *ngIf="datosPaginaService.cargadoCursosWeb">
+                 - {{ ideact }}
+               </span>
+           </li>
+         </ul> 
+      </div>
+    </div>
+
+    <!-- CRM y automatización -->
+    <h2 class="display-5 titulo mt-4 mb-3 text-center">CRM y AUTOMATIZACI&Oacute;N DE PROCESOS</h2>
+
+    <div class="card mt-5" style="width: 100%">
+
+      <div class="card-title bg-primary">   
+        <h2 class="py-3 text-center text-white">Cursos realizados</h2>
+      </div>
+
+      <div class="card-body">
+        <table class="table table-responsive-sm table-hover">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Nombre</th>
+              <th scope="col">Duraci&oacute;n (horas)</th>
+              <th scope="col">Empresa</th>
+              <th scope="col">Modalidad</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let crmItem of datosPaginaService.CRM">
+              <td>
+                <span *ngIf="datosPaginaService.cargadoCRM">
+                  {{ crmItem.nombre }
+                </span>}
+              </td>
+              <td>
+                <span *ngIf="datosPaginaService.cargadoCRM">
+                  {{ crmItem.duracion }}
+                </span>
+              </td>
+              <td>
+                <span *ngIf="datosPaginaService.cargadoCRM">
+                  {{ crmItem.empresa }}
+                </span>
+              </td>
+              <td>
+                <span *ngIf="datosPaginaService.cargadoCRM">
+                  {{ crmItem.modalidad }}
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table> 
+      </div>
+    </div>
+
+    <!-- Sistemas operativos y hardware -->
+    <h2 class="display-5 titulo mt-4 mb-3 text-center">SISTEMAS OPERATIVOS Y HARDWARE</h2>
+
+    <div class="card mt-5" style="width: 100%">
+
+      <div class="card-title bg-primary">   
+        <h2 class="py-3 text-center text-white">Cursos realizados</h2>
+      </div>
+
+      <div class="card-body">
+        <table class="table table-responsive-sm table-hover">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Nombre</th>
+              <th scope="col">Duraci&oacute;n (horas)</th>
+              <th scope="col">Empresa</th>
+              <th scope="col">Modalidad</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let soItem of datosPaginaService.SO">
+              <td>
+                <span *ngIf="datosPaginaService.cargadoSO"> 
+                  {{ soItem.nombre }}
+                </span>
+              </td>
+              <td>
+                <span *ngIf="datosPaginaService.cargadoSO">
+                  {{ soItem.duracion }}
+                </span>
+              </td>
+              <td>
+                <span *ngIf="datosPaginaService.cargadoSO">
+                  {{ soItem.empresa }}
+                </span>
+              </td>
+              <td>
+                <span *ngIf="datosPaginaService.cargadoSO"> 
+                  {{ soItem.modalidad }}
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table> 
+      </div>
+    </div>
+
+    <!-- Ofimática -->
+    <h2 class="display-5 titulo mt-4 mb-3 text-center">OFIM&Aacute;TICA</h2>
+
+    <div class="card mt-5" style="width: 100%">
+
+      <div class="card-title bg-primary">   
+        <h2 class="py-3 text-center text-white">Cursos realizados</h2>
+      </div>
+
+      <div class="card-body">
+        <table class="table table-responsive-sm table-hover">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Nombre</th>
+              <th scope="col">Duraci&oacute;n (horas)</th>
+              <th scope="col">Empresa</th>
+              <th scope="col">Modalidad</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let ofimItem of datosPaginaService.ofimatica">
+              <td>
+                <span *ngIf="datosPaginaService.cargadoOfimatica"> 
+                  {{ ofimItem.nombre }}
+                </span>
+              </td>
+              <td>
+                <span *ngIf="datosPaginaService.cargadoOfimatica"> 
+                  {{ ofimItem.duracion }}
+                </span>
+              </td>
+              <td>
+                <span *ngIf="datosPaginaService.cargadoOfimatica">
+                  {{ ofimItem.empresa }}
+                </span>
+              </td>
+              <td>
+                <span *ngIf="datosPaginaService.cargadoOfimatica"> 
+                  {{ ofimItem.modalidad }}
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table> 
+      </div>
+    </div>
+
+    <!-- Idiomas -->
+    <h2 class="display-5 titulo mt-4 mb-3 text-center">IDIOMAS</h2>
+
+    <div class="card mt-5" style="width: 100%">
+      <div class="card-title bg-primary">   
+        <h2 class="py-3 text-center text-white">Cursos realizados</h2>
+      </div>
+
+      <div class="card-body container">
+         <ul class="row">
+           <li class="col-12 pl-5" *ngFor="let idioma of datosPaginaService.idiomas">
+              <span *ngIf="datosPaginaService.cargadoIdiomas">
+                - {{ idioma }}
+              </span>
+           </li>
+         </ul> 
+      </div>
+    </div>
+
+</div>

@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="card" style="width: 100%;">
+        <div class="card-header bg-primary">
+          <h1 class="text-center text-white">Formaci&oacute;n acad&eacute;mica</h1>
+        </div>
+        <div class="card-body">
+            <table class="mt-3 mt-sm-2 table table-sm">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">Centro</th>
+                    <th scope="col">Duraci&oacute;n</th>
+                    <th scope="col">T&iacute;tulo</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Recuperamos los cursos con un bucle -->
+                  <tr *ngFor="let formacion of datosPaginaService.formaciones">
+                     <td *ngIf="datosPaginaService.cargadaFormacion"> 
+                       {{ formacion.centro }}
+                     </td>
+                     <td *ngIf="datosPaginaService.cargadaFormacion"> 
+                       {{ formacion.duracion }}
+                     </td>
+                     <td *ngIf="datosPaginaService.cargadaFormacion"> 
+                       {{ formacion.titulo }}
+                     </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>    
+</div>

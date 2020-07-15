@@ -1,0 +1,76 @@
+body {
+    padding-top: 30px;
+    padding-bottom: 130px !important;
+}
+
+footer{
+    font-size: 12px !important;
+    height: 110px !important; 
+}
+
+footer nav li{
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+#menu a{    
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.navbar-brand{
+    text-shadow: 2px 2px blue ;
+}
+
+@media only screen and (min-width: 360px) {
+    body {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    footer{
+        height: 50px;
+        padding: 10px;
+    }
+
+    .copyright{
+        text-shadow: 1px 1px blue ;
+        font-size: 15px;
+        letter-spacing: 2px;
+        color: white;
+    }
+
+    .nav-manual ul{
+        list-style: none;
+    }
+
+    .fab{
+        font-size: 30px;
+        background-color:white;
+        color: blue;
+        line-height: 23px;
+        box-shadow: 2px 2px 5px yellow;
+    }
+    
+    .manual{
+        font-size: 20px;
+        background-color: blue;
+        color: white;
+        letter-spacing: 2px;
+        padding: 0px 5px;
+        border-radius: 3px;
+        box-shadow: 1px 1px 5px gold;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    footer{
+        font-size: 12px !important;
+        height: 60px !important; 
+    }
+
+    body {
+        padding-top: 30px;
+        padding-bottom: 60px !important;
+    }
+}

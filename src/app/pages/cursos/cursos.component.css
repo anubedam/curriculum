@@ -1,0 +1,8 @@
+.titulo, .card-title, .display{
+    letter-spacing: 4px;
+}
+
+.card-body ul{
+    list-style: none;
+}
+
