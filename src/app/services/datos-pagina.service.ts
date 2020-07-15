@@ -88,8 +88,8 @@ export class DatosPaginaService {
     // Carga la información de los cursos de CRM
     this.http.get('https://curriculum-aum.firebaseio.com/CRM.json')
         .subscribe( (resp: DatosCurso[]) => {
-        this.cargadoCRM = true;
-        this.CRM = resp;
+        this.cargadoCRM = true;  
+        this.CRM = resp;        
         });
   }
 
