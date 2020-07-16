@@ -5,14 +5,16 @@ import { AboutComponent } from './pages/about/about.component';
 import { FormacionComponent } from './pages/formacion/formacion.component';
 import { CursosComponent } from './pages/cursos/cursos.component';
 import { ExperienciaComponent } from './pages/experiencia/experiencia.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 // Lista de rutas de mi aplicación
 const app_routes: Routes = [
-    { path: 'home', component: AboutComponent },
+    { path: 'inicio', component: AboutComponent },
     { path: 'formacion', component: FormacionComponent },
-    { path: 'cursos', component: CursosComponent },
+    { path: 'conocimientos', component: CursosComponent },
     { path: 'experiencia', component: ExperienciaComponent },
-    { path: '**', pathMatch: 'full', redirectTo: 'home' }
+    { path: '', redirectTo: '/inicio', pathMatch: 'full' }, 
+    { path: '**', component: PageNotFoundComponent },
 ];
 
 @NgModule({

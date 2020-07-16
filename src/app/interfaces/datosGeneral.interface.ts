@@ -6,4 +6,7 @@ export interface DatosGeneral{
     telefono?: String;
     email?: String; 
     texto?: String;
+    urlFoto?: String;
+    urlCurriWeb?: String;
+    urlCurriCobol?: String;
 }
