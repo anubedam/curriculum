@@ -11,15 +11,15 @@
     "nombre" : "UIPATH ROBOT"
   } ],
   "SO" : [ {
-    "duracion" : 0,
-    "empresa" : "",
+    "duracion" : 120,
+    "empresa" : "Ciclo Formativo de Grado Superior",
     "modalidad" : "Presencial",
-    "nombre" : "Microsoft Windows (uso habitual)"
+    "nombre" : "Microsoft Windows"
   }, {
-    "duracion" : 0,
+    "duracion" : 120,
     "empresa" : "Ciclo Formativo Grado Superior",
     "modalidad" : "Presencial",
-    "nombre" : "GNU/Linux"
+    "nombre" : "UNIX/Linux"
   }, {
     "duracion" : 50,
     "empresa" : "Maforem",
@@ -30,11 +30,42 @@
     "BBDD" : [ "MySQL", "Oracle Database 11g", "H2 Database", "Microsoft Access", "DB2" ],
     "IDE" : [ "Eclipse", "VisualStudio Code", "ATOM", "Sublime Text", "Netbeans" ],
     "categorias" : [ {
-      "cursos" : [ {
-        "duracion" : 12.5,
-        "empresa" : "Udemy",
+      "cursos" : [ 
+      {
+          "duracion" : 35.5,
+          "empresa" : "Udemy",
+          "modalidad" : "Online",
+          "nombre" : "Angular 10"
+      },	
+      {
+          "duracion" : 5,
+          "empresa" : "Skill-Soft",
+          "modalidad" : "Online",
+          "nombre" : "HTML5"
+      },
+      {
+        "duracion" : 2,
+        "empresa" : "Skill-Soft",
         "modalidad" : "Online",
-        "nombre" : "HTML5, CSS3 y Javascript"
+        "nombre" : "CSS3"
+      },  
+      {
+          "duracion" : 14,
+          "empresa" : "Didacticode",
+          "modalidad" : "Online",
+          "nombre" : "Javascript y AJAX"
+      },
+      {
+          "duracion" : 4.5,
+          "empresa" : "Didacticode",
+          "modalidad" : "Online",
+          "nombre" : "JQuery"
+      },  
+      {
+        "duracion" : 1,
+        "empresa" : "Didacticode",
+        "modalidad" : "Online",
+        "nombre" : "Javascript moderno (ES6)"
       }, {
         "duracion" : 22,
         "empresa" : "Udemy",
@@ -43,28 +74,37 @@
       } ],
       "nombre" : "Front Office"
     }, {
-      "cursos" : [ {
+      "cursos" : [
+      {
+          "duracion" : 32.5,
+          "empresa" : "Udemy",
+          "modalidad" : "Online",
+          "nombre" : "MEAN (MongoDb+Express+Angular+Node)"
+      },   
+      {
         "duracion" : 84,
         "empresa" : "Capgemini",
         "modalidad" : "Presencial",
         "nombre" : "Desarrollo Web con Java EE (JSP y Servlets)"
       }, {
-        "duracion" : 41.5,
+        "duracion" : 42.5,
         "empresa" : "Udemy",
         "modalidad" : "Online",
         "nombre" : "Spring Boot 2 (Thymeleaf) y Spring Framework 5 (JSP)"
       }, {
-        "duracion" : 16.5,
+        "duracion" : 18.5,
         "empresa" : "Udemy",
         "modalidad" : "Online",
         "nombre" : "Spring Boot Microservices and Spring Cloud (AWS)"
-      }, {
-        "duracion" : 5.5,
+      },
+      {
+        "duracion" : 2,
         "empresa" : "Udemy",
         "modalidad" : "Online",
-        "nombre" : "Angular"
-      }, {
-        "duracion" : 12,
+        "nombre" : "PHP con MySql"
+      }, 
+      {
+        "duracion" : 12.5,
         "empresa" : "Udemy",
         "modalidad" : "Online",
         "nombre" : "Django 2"
@@ -97,17 +137,25 @@
       } ],
       "nombre" : "Control de Versiones y Pruebas"
     }, {
-      "cursos" : [ {
-        "duracion" : 13,
-        "empresa" : "Skillsoft",
-        "modalidad" : "Online",
-        "nombre" : "Agile, Scrum y Lean"
-      }, {
+      "cursos" : [
+      {
+         "duracion" : 4,
+         "empresa" : "Udemy",
+         "modalidad" : "Online",
+         "nombre" : "Patrones de diseño y principios SOLID"
+      },
+      {
         "duracion" : 20,
         "empresa" : "Capgemini",
         "modalidad" : "Presencial",
         "nombre" : "UML"
-      }, {
+      },    
+      {
+        "duracion" : 13,
+        "empresa" : "Skillsoft",
+        "modalidad" : "Online",
+        "nombre" : "Agile, Scrum y Lean"
+      },{
         "duracion" : 8,
         "empresa" : "Capgemini",
         "modalidad" : "Presencial",
@@ -147,15 +195,15 @@
   },
   "idiomas" : [ "Inglés Pearson - Nivel 8", "Español (idioma nativo)" ],
   "ofimatica" : [ {
-    "duracion" : 51.5,
-    "empresa" : "SkillSoft",
-    "modalidad" : "Online",
+    "duracion" : 270,
+    "empresa" : "Ciclo Formativo Grado Superior",
+    "modalidad" : "Presencial",
     "nombre" : "Microsoft Office"
   }, {
     "duracion" : 0,
     "empresa" : "Capgemini",
     "modalidad" : "Presencial",
-    "nombre" : "Microsoft Visio (Uso habitual)"
+    "nombre" : "Microsoft Visio"
   } ],
   "trabajos" : [ {
     "descripcion" : "<strong>Extracción de datos</strong> para la migraci&oacute;n del Banco Popular al Santander en los aplicativos de <strong>Cheques</strong> y <strong>transferencias</strong>.",
@@ -204,7 +252,7 @@
     "modalidad" : "Presencial",
     "nombre" : "Endevor"
   }, {
-    "duracion" : 0,
+    "duracion" : 295,
     "empresa" : "Ciclo Formativo Grado Superior",
     "modalidad" : "Presencial",
     "nombre" : "C"
