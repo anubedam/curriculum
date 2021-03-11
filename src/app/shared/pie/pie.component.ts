@@ -8,6 +8,8 @@ import { DatosPaginaService } from '../../services/datos-pagina.service';
   styleUrls: ['./pie.component.css']
 })
 export class PieComponent implements OnInit {
+  // Año a mostrar (Ever green)
+  anio = new Date().getFullYear();
 
   constructor(public datosPaginaService: DatosPaginaService) { }
 
